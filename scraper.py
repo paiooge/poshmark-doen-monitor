@@ -115,7 +115,7 @@ def get_listing_links(page):
     )
 
     return list(urls)
-  def get_listing_detail(page, url):
+def get_listing_detail(page, url):
     """
     获取商品详情
     """
@@ -227,7 +227,7 @@ def get_listing_links(page):
         )
 
         return None
-      def main():
+def main():
 
     existing = load_data()
 
